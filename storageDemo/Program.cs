@@ -10,7 +10,7 @@ namespace storageDemo
     class Program
     {
         // TODO: Add your connection string here
-        private static readonly string _connectionString = "DefaultEndpointsProtocol=https;AccountName=storagechandru007;AccountKey=4RIyfO5U+nc/z881IE71BhO+T883XugRFraap2J3TWHPL0+DEvkbk9QCo6t5pzIoQ9mRjPq6lqcHL2HEPhxQsA==;EndpointSuffix=core.windows.net";
+        private static readonly string _connectionString = "UseDevelopmentStorage=true";
 
         private static readonly string _blobContainerName = "authors";
         private static readonly string _blobName = "chandru.html";
